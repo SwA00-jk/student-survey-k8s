@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Survey</title>
+</head>
+<body>
+  <h2>Student Survey Form</h2>
+  <form method="POST">
+    First Name: <input type="text" name="firstName" required><br><br>
+    Last Name: <input type="text" name="lastName" required><br><br>
+    Street Address: <input type="text" name="street"><br><br>
+    City: <input type="text" name="city"><br><br>
+    State: <input type="text" name="state"><br><br>
+    Zip: <input type="text" name="zip"><br><br>
+    Telephone Number: <input type="text" name="telephone"><br><br>
+    Email: <input type="email" name="email" required><br><br>
+    Date of Survey: <input type="date" name="surveyDate"><br><br>
+
+    What you liked about the campus:<br>
+    <input type="checkbox" name="likes" value="Students"> Students<br>
+    <input type="checkbox" name="likes" value="Location"> Location<br>
+    <input type="checkbox" name="likes" value="Campus"> Campus<br>
+    <input type="checkbox" name="likes" value="Atmosphere"> Atmosphere<br>
+    <input type="checkbox" name="likes" value="Dorm Rooms"> Dorm Rooms<br>
+    <input type="checkbox" name="likes" value="Sports"> Sports<br><br>
+
+    How did you hear about us?<br>
+    <input type="radio" name="source" value="Friends"> Friends<br>
+    <input type="radio" name="source" value="Television"> Television<br>
+    <input type="radio" name="source" value="Internet"> Internet<br>
+    <input type="radio" name="source" value="Other"> Other<br><br>
+
+    Additional Comments:<br>
+    <textarea name="comments" rows="4" cols="50"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
